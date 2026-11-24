@@ -3,6 +3,7 @@ services:
     name: replab
     runtime: node
     plan: free
+    rootDir: replab-site
     buildCommand: npm install
     startCommand: node server.js
     envVars:
